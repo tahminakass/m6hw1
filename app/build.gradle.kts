@@ -67,6 +67,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    // or the latest stable version that supports API 35
-   // classpath ("com.android.tools.build:gradle:8.6.0")
+    //nav
+    implementation ("androidx.navigation:navigation-compose:2.8.3")
+    implementation (libs.ui)
+    implementation (libs.androidx.navigation.compose)
 }
